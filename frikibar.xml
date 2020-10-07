@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Frikibar PUBLIC "public-id" "frikibar.dtd">
+
+<Frikibar location="Las Palmas">
+    <menu>
+            <food>
+                <baguettes>
+                    <baguette>
+                        <name>Pata asada</name>
+                        <price>3€</price>
+                        <ingredients>
+                                <ingredient>Pata</ingredient>
+                                <ingredient>Pan</ingredient>
+                        </ingredients>
+                    </baguette>    
+                    <baguette>
+                        <name>Jamón y queso</name>
+                        <price>2.20€</price>
+                        <ingredients>
+                            <ingredient>Jamón</ingredient>
+                            <ingredient>Queso</ingredient>
+                            <ingredient>Mantequilla</ingredient>
+                            <ingredient>Pan</ingredient>
+                    </ingredients>
+                    </baguette>
+                    <baguette>
+                        <name>Atún y millo</name>
+                        <price>3€</price>
+                        <ingredients>
+                            <ingredient>Atún</ingredient>
+                            <ingredient>Millo</ingredient>
+                            <ingredient>Mayonesa</ingredient>
+                            <ingredient>Pan</ingredient>
+                    </ingredients>
+                    </baguette>
+                    <baguette>
+                        <name>Hummus y espinacas</name>
+                        <price>3€</price>
+                        <ingredients>
+                            <ingredient>Hummus</ingredient>
+                            <ingredient>Espinacas</ingredient>
+                            <ingredient>Orégano</ingredient>
+                            <ingredient>Pan</ingredient>
+                    </ingredients>
+                    </baguette>
+                </baguettes>
+                <snacks>
+                    <snack>
+                        <name>Aceitunas</name>
+                        <price>1€</price>
+                        <ingredients>
+                            <ingredient>Aceitunas</ingredient>
+                            <ingredient>Pimiento</ingredient>
+                    </ingredients>
+                    </snack>
+                    <snack>
+                        <name>Papas gajo</name>
+                        <price>3€</price>
+                        <ingredients>
+                            <ingredient>Papas</ingredient>
+                            <ingredient>Pimintón</ingredient>
+                    </ingredients>
+                    </snack>
+                    <snack>
+                        <name>Palomitas</name>
+                        <price>1.50€</price>
+                        <ingredients>
+                            <ingredient>Millo</ingredient>
+                            <ingredient>Mantequilla</ingredient>
+                        </ingredients>
+                    </snack>
+                </snacks>
+            </food>
+            <drinks>
+                <drink>
+                    <name>Cocacola</name>
+                    <price>1.5€</price>
+                </drink>
+                <drink>
+                    <name>Clipper fresa</name>
+                    <price>1.5€</price>
+                </drink>
+                <drink>
+                    <name>Seven Up</name>
+                    <price>1.5€</price>
+                </drink>
+            </drinks>
+    </menu>
+
+    <tables>
+        <table>
+            <number>1</number>
+            <minpeople>2</minpeople>
+            <maxpeople>4</maxpeople>
+        </table>
+        <table>
+            <number>2</number>
+            <minpeople>3</minpeople>
+            <maxpeople>6</maxpeople>
+        </table>
+        <table>
+            <number>3</number>
+            <minpeople>2</minpeople>
+            <maxpeople>2</maxpeople>
+        </table>
+    </tables>
+
+    <games>
+        <game>
+            <name>Dos</name>
+            <description>Juego de cartas de Mattel por puntos pensado para de 2 a 4 jugadores, que consta de 108 cartas</description>
+            <!--minage></minage No hay edad mínima porque es un juego para toda la familia-->
+            <minplayers>2</minplayers>
+            <maxplayers>4</maxplayers>
+        </game>
+        <game>
+            <name>Código Secreto</name>
+            <description>¿Sabrías encontrar las dos palabras relacionadas con “fiebre” que te harán ganar la partida?</description>
+            <minage>8</minage>
+            <minplayers>2</minplayers>
+            <maxplayers>8</maxplayers>
+        </game>
+        <game>
+            <name>Dixit</name>
+            <description> Juego de cartas ilustradas para contar historias.</description>
+            <minage>8</minage>
+            <minplayers>3</minplayers>
+            <maxplayers>6</maxplayers>
+        </game>
+    </games>
+
+</Frikibar>

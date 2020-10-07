@@ -1,0 +1,25 @@
+<!ELEMENT Frikibar (menu+, tables+, games+)>
+<!ATTLIST Frikibar location CDATA #REQUIRED>
+<!ELEMENT menu (food, drinks+)>
+<!ELEMENT food (baguettes, snacks*)>
+<!ELEMENT snacks (snack+)>
+<!ELEMENT snack (name+,price+,ingredients+)>
+<!ELEMENT baguettes (baguette*)>
+<!ELEMENT baguette (name+,price+,ingredients+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT ingredients (ingredient*)>
+<!ELEMENT ingredient (#PCDATA)>
+<!ELEMENT drinks (drink*)>
+<!ELEMENT drink (name+, price+)>
+<!ELEMENT tables (table+)>
+<!ELEMENT table (number+, minpeople+, maxpeople*)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT minpeople (#PCDATA)>
+<!ELEMENT maxpeople (#PCDATA)>
+<!ELEMENT games (game+)>
+<!ELEMENT game (name+, description, minage?, minplayers, maxplayers)>
+<!ELEMENT minplayers (#PCDATA)>
+<!ELEMENT maxplayers (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT minage (#PCDATA)>
